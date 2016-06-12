@@ -1,0 +1,23 @@
+//you can add more items to your store
+//img_file attribute can be edited.
+
+[
+	{
+		"name": "Strepsils",
+		"price": 87.50,
+		"quantity": 10,
+		"img_file": "../img/item/strepsils.jpg"
+	},
+	{
+		"name": "Chickenjoy",
+		"price": 90.00,
+		"quantity": 15,
+		"img_file": "../img/item/chickenjoy.jpg"
+	},
+	{
+		"name": "Big Mac",
+		"price": 120.00,
+		"quantity": 8,
+		"img_file": "../img/item/big_mac.jpg"
+	}
+]

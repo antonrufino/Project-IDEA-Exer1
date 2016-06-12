@@ -1,0 +1,30 @@
+#calculator {
+    width: 200px;
+    overflow: auto;
+}
+
+.panel {
+    float: left;
+}
+
+.number-button {
+    float: left;
+    width: 33%;
+}
+
+.operator-button {
+    float: left;
+    width: 100%;
+}
+
+#expression-text {
+    width: inherit;
+}
+
+#number-panel {
+    width: 66%;
+}
+
+#operator-panel {
+    width: 34%;
+}
