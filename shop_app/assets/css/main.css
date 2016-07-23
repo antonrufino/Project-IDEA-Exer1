@@ -16,3 +16,7 @@ div.card-title {
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
 }
+
+.invisible {
+    display: none;
+}
