@@ -1,3 +1,4 @@
+// Handle cart backend.
 $(document).ready(() => {
     if (typeof Storage !== null) {
         let total = 0;

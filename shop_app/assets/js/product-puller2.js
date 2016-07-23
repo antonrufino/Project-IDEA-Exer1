@@ -1,3 +1,5 @@
+//Get all products
+
 $(document).ready(() => {
     $.ajax({
         url: "http://acssuplb.github.io/json/exer1_inventory.json",
