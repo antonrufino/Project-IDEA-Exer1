@@ -10,13 +10,15 @@
         <link href="bower_components/Materialize/dist/css/materialize.min.css" rel="stylesheet" />
         <!--Custom CSS files-->
         <link href="assets/css/main.css" rel="stylesheet" />
-        <link href="assets/css/home.css" rel="stylesheet" />
     </head>
     <body>
+        <!--Nav bar-->
         <div class="navbar-fixed">
             <nav class="white">
                 <div class="container nav-wrapper">
                     <a href="index.html" class="left black-text" style="font-family: 'Merienda One', cursive">eBeh</a>
+
+                    <!--Links for desktop-->
                     <ul class="right hide-on-med-and-down">
                         <li>
                             <a href="pages/catalog.html" class="black-text">Catalog ni beh<i class="material-icons left">store</i></a>
@@ -25,6 +27,8 @@
                             <a href="pages/cart.html" class="black-text">Shopping cart mo beh<i class="material-icons left">shopping_cart</i></a>
                         </li>
                     </ul>
+
+                    <!--Links for mobile and tablets-->
                     <ul class="right hide-on-large-only">
                         <li>
                             <a href="pages/catalog.html" class="black-text"><i class="material-icons">store</i></a>
@@ -36,58 +40,18 @@
                 </div>
             </nav>
         </div>
+
+        <!--Banner-->
         <div class="banner-pic">
             <!--Image courtesy of lazada.com.ph-->
             <img class="responsive-img hide-on-large-only" src="assets/img/banner-mobile.jpg" width="100%"/>
             <img class="responsive-img hide-on-med-and-down" src="assets/img/banner-desktop.jpg" width="100%"/>
         </div>
+
+        <!--Products-->
         <h4 class="center-align">Hot beh!</h4>
         <div id="card-container" class="container">
             <div class="row">
-                <div class="col s12 m6 l3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="responsive-img" src="assets/img/banner.jpg" />
-                            <span class="card-title">Lorem ipsum</span>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Buy</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="responsive-img" src="assets/img/banner.jpg" />
-                            <span class="card-title">Lorem ipsum</span>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Buy</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="responsive-img" src="assets/img/banner.jpg" />
-                            <span class="card-title">Lorem ipsum</span>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Buy</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="responsive-img" src="assets/img/banner.jpg" />
-                            <span class="card-title">Lorem ipsum</span>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Buy</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -97,5 +61,6 @@
 
         <!--Custom scripts-->
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/product-puller.js"></script>
     </body>
 </html>
